@@ -2,8 +2,15 @@ ESOPHAGEAL CANCER DATASET
 
     Automatic detection of diseases with the use of computers is essential, but is unexplored because of the low research interest in this field.Such improvements may improve 
     scientific practice and refine health care systems everywhere in the world. However, datasets containing medical images are infrequently available,making reproducibility and 
-    assessment of approaches almost impossible. Kvasir dataset containing images from the gastrointestinal tract. The quantity of images is enough to use for extraordinary 
-    responsibilities such as image retrieval, machine learning, deep learning and transfer learning. The dataset consists of the images with distinct resolution from 720x576 
-    up-to 1920x1072 pixels. The Medical Image Computing and Computer Assisted Intervention (MICCAI) dataset is a collection of various cancer datasets along with different patient
-    images. The dataset is composed of total 100 images with resolution of 1600×1200 gathered from 39 patients. The images are divided into 50 images without any cancer signs 
-    obtained from 17 patients and the other 50 with cancerous regions from 22 patients diagnosed with EAC.
+    assessment of approaches almost impossible. 
+    
+    Kvasir dataset link available here ---- https://datasets.simula.no/kvasir/ 
+    
+        Kvasir dataset containing images from the gastrointestinal tract. The quantity of images is enough to use for extraordinary responsibilities such as image retrieval, 
+        machine learning, deep learning and transfer learning. The dataset consists of the images with distinct resolution from 720x576 up-to 1920x1072 pixels. The dataset is 
+        composed of total 100 images with resolution of 1600×1200 gathered from 39 patients. The images are divided into 50 images without any cancer signs obtained from 17 
+        patients and the other 50 with cancerous regions from 22 patients diagnosed with EAC.
+        
+    The Medical Image Computing and Computer Assisted Intervention (MICCAI) dataset -- Not available!!
+    
+        MICCAI dataset is a collection of various cancer datasets along with different patient images. 
