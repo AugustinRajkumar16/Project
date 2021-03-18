@@ -1,0 +1,5 @@
+Welcome!!
+
+First, download datasets where the Dataset Folder[It's link is available there]
+Then set-path of input image from the dataset
+Run the main.m code 
