@@ -1,15 +1,18 @@
+     
+     The overall objective of this project is to detect esophagus cancer cells in gullet(food pipe). Esophagus cancer is the eighth most common cancer worldwide. Around 456,000
+cases were filed globally in 2012, accounting 3% of all new cases of cancer. It is the sixth most common cause of death from cancer. Now-a-days, almost all patients are 
+pretentious by cancer in global level. Therefore detecting esophageal cancer during initial stages, will stop the development of disease into human cells. During esophagus 
+observation, if there is any abnormalities then it will be very much complicated in near future.
+
+     Therefore, initial observation and timely detection is required due to the irregular form, variable size, and the complicated surrounding vicinity which requires a significant 
+effort and practices. In this work, Faster Region Convolutional Neural Network (Faster RCNN) is used to find out anomalous area from endoscopic images which is the best way to 
+detect it. For the feature extraction purpose Dense Convolutional Network (DenseNet) is used and is also aggregated along with Gabor features with the Convolutional Neural Network
+(CNN) features. 
+
+      This is to deal with challenges of getting the abnormally complex areas features. So, concatenation of both DenseNet and Gabor will improve texture information at
+the detection point. Experimental results on Faster RCNN will give detecting anomalies in endoscopic images, excluding noise data, without any human intervention and errors. 
+Regarding the Kvasir datasets, the results show an outstanding performance with a recall of 94.7% and a precision of 83.7% with a mean of average precision of 72.1%, which is a 
+good performance compared to the rest of the alternative detection methods 
       
-      The overall objective of this project is to detect Colorectal Cancer cells in gastrointestinal portion. As generation changes, the cancer mortality rate keeps on increasing
-in global level. Colorectal cancer is the third most common cancer deaths in worldwide. Around 1,47,950 cases were filed globally in 2020, accounting 3% of all new cases of 
-cancer. Therefore, detecting colorectal cancer during initial stages, will stop the development of disease into human cells. During colorectal polyps observation, if there is any 
-abnormalities then it will be very much complicated in near future. Therefore, initial observation of colonoscopy is common way to detect colorectal polyps and timely detection is
-required due to the irregular form, variable size, and the complicated surrounding vicinity which requires a significant effort and practices. 
-
-      The presented system is based on two models of detection and segmentation. First model is Active Contour segmentation. It is based on energy minimization for masking location
-of polyps with several iterations to detected and segmented affected part. While the second model, the powerful object detection neural network is Mask Region Convolutional Neural 
-Network (Mask RCNN) to identify and segment polyps in the colonoscopy images. 
-
-      Both the models are showing good outcomes with better results. Regarding the Active Contour Model, the results show an outstanding performance with a recall of 81.2% and a 
-precision of 71.2% with average precision (AP) of 52.6%. While for the Mask RCNN, the model is able to surpass the state-of-the-art performance with 82.2% recall and 82.4% 
-precision with AP value of 91.1%. The experimental results demonstrate that the system is able to detect and segment polyps in colonoscopy images.
+     
 
