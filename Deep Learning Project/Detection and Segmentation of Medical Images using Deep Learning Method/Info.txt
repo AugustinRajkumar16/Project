@@ -1,0 +1,8 @@
+In this code, 
+
+    First the Convert the RGB to Grayscale, to run the 'rgb2gray.m' file 
+
+Then project based on Active Contour Method and Mask RCNN
+
+1. Active Contour code is Matlab file
+2. Mask RCNN is Python file [Using TensorFlow and Keras]
